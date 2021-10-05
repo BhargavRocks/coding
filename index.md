@@ -37,7 +37,7 @@ Your Pages site will use the layout and styles from the Jekyll theme you have se
 Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
 
 <p style="text-color:red;">hi friends this is my website set up by github by default so i am beginner in this field so just trying to do some changes in this index file lets see do they reflect on my website</p>
-  <h1 text-color=#151522> I am <b> Bhargav Shamuvel Gurav </b> </h1>
+   I am <b> Bhargav Shamuvel Gurav </b> 
   <!DOCTYPE html>
 <head>
 <title>This is my website </title>
@@ -52,8 +52,8 @@ Having trouble with Pages? Check out our [documentation](https://docs.github.com
     
 <p id="note"> This is the text going to changed when you will click on button below me </P>
 <script>
-function myfunction{   
-							document.getElementById('note').innerHTML="hello world!";
+function myfunction(){   
+							document.getElementById("note").innerHTML="hello world!";
                    }
 </script>
 <button type="button" onclick="myfunction()"> Click here </button>
