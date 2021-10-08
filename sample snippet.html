@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="refresh" content="300">
+	<title> Notes section </title>
+	<style>
+		* {
+			box-sizing: border-box;
+		}
+
+		body {
+			background-color: rgba(87, 99, 129, 0.6);
+
+		}
+
+		.div1 {
+			border: 10px solid red;
+			margin-bottom: 5px;
+		}
+
+		h1 {
+			text-align: center;
+			font-style: italic;
+			font-weight: bold;
+
+		}
+
+		button {
+			background-color: red;
+			color: yellow;
+			font-size: 25px;
+			text-align: center;
+			margin-bottom: 4px;
+		}
+
+		#jadu {
+			font-size: 200%;
+			text-align: center;
+		}
+
+		button {
+			position: relative;
+			left: 50%;
+		}
+
+		#note {
+
+			border: 3px solid black;
+			background-color: yellow;
+			height: 148px;
+			padding: 5px;
+			position: relative;
+			
+
+
+
+		}
+
+		.p1 {
+			border: 2px solid red;
+			background-color: white;
+			height: 50px;
+			width: 47%;
+			margin: 1%;
+			position: relative;
+			left: 51%
+			/*overflow:hidden;*/
+		}
+
+		.p2 {
+			border: 2px solid red;
+			background-color: white;
+			height: 50px;
+			width: 47%;
+			margin: 1%;
+			overflow: initial;
+			position: relative;
+			top: -66px;
+
+
+		}
+
+		.p3 {
+			border: 2px solid red;
+			background-color: white;
+			height: 50px;
+			width: 98%;
+			margin: 1%;
+			position: relative;
+			top: -66px;
+			overflow: inherit;
+			
+		}
+	</style>
+</head>
+
+<body>
+	<div class="div1">
+		<h1>Here is one of the simple script trick</h1>
+		<p id="jadu">you want to see what is going to happen? just click on buttone given below</p>
+		<script type="text/javascript">
+			function myfunc() {
+				document.getElementById("jadu").innerHTML = "Surprise how you doin!";
+			}
+
+		</script>
+		<div>
+			<button type="button" onclick="myfunc()">Click here</button>
+		</div>
+	</div>
+	<div id="note">
+		<div>
+			<p class="p1">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+				proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>
+		</div>
+
+		<div>
+			<p class="p2"> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+		</div>
+
+		<div>
+			<p class="p3">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+		</div>
+	</div>
+
+</body>
+
+</html>
